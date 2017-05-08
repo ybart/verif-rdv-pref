@@ -1,4 +1,6 @@
 require "kemal"
+require "sqlite3"
+require "crecto"
 require "./verif-rdv-pref/*"
 
 module Verif::Rdv::Pref
