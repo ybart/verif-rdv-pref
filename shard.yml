@@ -1,0 +1,13 @@
+name: verif-rdv-pref
+version: 0.1.0
+
+authors:
+  - Yvan BARTHÉLEMY <ybarthelemy@free.fr>
+
+targets:
+  verif-rdv-pref:
+    main: src/verif-rdv-pref.cr
+
+crystal: 0.22.0
+
+license: MIT
