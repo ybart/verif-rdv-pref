@@ -1,22 +1,21 @@
 # verif-rdv-pref
 
-TODO: Write a description here
+Check prefecture availability for appointments.
 
 ## Installation
 
-TODO: Write installation instructions here
+* Install Crystal
+* Clone the repo locally
+* See usage
 
 ## Usage
 
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
+	crystal build --release src/verif-rdv-pref.cr
+	./verif-rdv-pref
 
 ## Contributing
 
-1. Fork it ( https://github.com/[your-github-name]/verif-rdv-pref/fork )
+1. Fork it ( https://github.com/ybart/verif-rdv-pref/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
@@ -24,4 +23,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [[your-github-name]](https://github.com/[your-github-name]) Yvan BARTHÉLEMY - creator, maintainer
+- [ybart](https://github.com/ybart) Yvan BARTHÉLEMY - creator, maintainer

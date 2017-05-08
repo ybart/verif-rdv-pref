@@ -1,5 +1,10 @@
+require "kemal"
 require "./verif-rdv-pref/*"
 
 module Verif::Rdv::Pref
-  # TODO Put your code here
+  get "/" do
+    "Hello World!"
+  end
+
+  Kemal.run
 end
