@@ -10,7 +10,15 @@ shards:
 
   kemal:
     github: kemalcr/kemal
-    commit: e9fd7219bbecd63906c95d303cf3633c9b760c01
+    commit: ce9e924d00d07bf9ca7184a41bc81579da0122ec
+
+  kemal-csrf:
+    github: kemalcr/kemal-csrf
+    version: 0.2.0
+
+  kemal-session:
+    github: kemalcr/kemal-session
+    commit: bbef25f36fe6505d3221de9952f94a1023225b85
 
   kilt:
     github: jeromegn/kilt
@@ -21,6 +29,6 @@ shards:
     version: 0.3.8
 
   sqlite3:
-    github: crystal-lang/crystal-sqlite3
-    version: 0.8.2
+    github: Zhomart/crystal-sqlite3
+    commit: 960626353ad3324c99920e9d09b20f8b8ee94834
 

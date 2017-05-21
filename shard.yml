@@ -13,10 +13,13 @@ crystal: 0.22.0
 license: MIT
 
 dependencies:
+  sqlite3:
+    github: Zhomart/crystal-sqlite3
+    branch: master
   kemal:
     github: kemalcr/kemal
     branch: master
   crecto:
     github: fridgerator/crecto
-  sqlite3:
-    github: crystal-lang/crystal-sqlite3
+  kemal-csrf:
+    github: kemalcr/kemal-csrf
