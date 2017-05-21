@@ -1,11 +1,12 @@
 require "kemal"
 require "sqlite3"
 require "crecto"
+require "kemal-csrf"
+
 require "./verif-rdv-pref/*"
+require "./verif-rdv-pref/actions/*"
+require "./verif-rdv-pref/models/*"
 
-module Verif::Rdv::Pref
-  get "/" do
-    "Hello World!"
-  end
-
+module VerifRdvPref
+  add_handler CSRF.new
 end
