@@ -8,5 +8,4 @@ module Verif::Rdv::Pref
     "Hello World!"
   end
 
-  Kemal.run
 end

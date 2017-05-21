@@ -10,8 +10,8 @@ Check prefecture availability for appointments.
 
 ## Usage
 
-	crystal build --release src/verif-rdv-pref.cr
-	./verif-rdv-pref
+	crystal build --release src/web.cr
+	./web
 
 ## Contributing
 
