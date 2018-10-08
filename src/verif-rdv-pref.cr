@@ -1,4 +1,5 @@
 require "kemal"
+
 require "sqlite3"
 require "crecto"
 require "kemal-csrf"
