@@ -5,13 +5,24 @@ Check prefecture availability for appointments.
 ## Installation
 
 * Install Crystal
+	```
+	brew update
+	brew install crystal
+	```
 * Clone the repo locally
+	```
+	git clone git@github.com:ybart/verif-rdv-pref.git
+	cd verif-rdv-pref
+	```
 * See usage
 
 ## Usage
 
-	crystal build --release src/web.cr
-	./web
+```
+shards install
+crystal build --release src/web.cr
+./web
+```
 
 ## Contributing
 
