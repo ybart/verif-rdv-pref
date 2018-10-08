@@ -3,4 +3,5 @@
 /bin/
 /.shards/
 /web
+/web.dwarf
 /db/development.db
