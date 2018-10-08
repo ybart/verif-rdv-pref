@@ -2,4 +2,16 @@ Appointment settings
 
 <ul>
 	<li><a href='/appointment_settings/new'>New setting</a></li>
+	<h2>Templates</h2>
+	<ul>
+		<%- appointment_settings.each do |setting| %>
+		<li>
+			#<%= setting.id %> -
+			<%= setting.title %>
+			(<a href='./appointment_setting/<%= setting.id %>'>Show</a> |
+			<a href='#'>Edit</a> |
+			<a href='#'>Delete</a>)
+		</li>
+		<%- end %>
+	</ul>
 </ul>

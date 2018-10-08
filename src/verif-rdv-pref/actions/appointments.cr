@@ -1,6 +1,10 @@
 require "ecr"
 
 module VerifRdvPref::Actions
+  before_all do |env|
+    env.response.headers["Content-Type"] = "text/html; charset=UTF-8"
+  end
+
   get "/appointment_settings" do
     appointment_settings = Repo.all(AppointmentSetting) # TODO: Pagination
     render_view "appointment_settings/index"
