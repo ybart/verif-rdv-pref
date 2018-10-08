@@ -2,26 +2,34 @@ version: 1.0
 shards:
   crecto:
     github: fridgerator/crecto
-    version: 0.5.3
+    version: 0.9.0
 
   db:
     github: crystal-lang/crystal-db
-    version: 0.4.2
+    version: 0.5.0
+
+  exception_page:
+    github: crystal-loot/exception_page
+    version: 0.1.1
 
   kemal:
     github: kemalcr/kemal
-    commit: ce9e924d00d07bf9ca7184a41bc81579da0122ec
+    version: 0.24.0
 
   kemal-csrf:
     github: kemalcr/kemal-csrf
-    version: 0.2.0
+    version: 0.5.0
 
   kemal-session:
     github: kemalcr/kemal-session
-    commit: bbef25f36fe6505d3221de9952f94a1023225b85
+    version: 0.10.0
 
   kilt:
     github: jeromegn/kilt
+    version: 0.4.0
+
+  micrate:
+    github: amberframework/micrate
     version: 0.3.3
 
   radix:
@@ -29,6 +37,6 @@ shards:
     version: 0.3.8
 
   sqlite3:
-    github: Zhomart/crystal-sqlite3
-    commit: 960626353ad3324c99920e9d09b20f8b8ee94834
+    github: crystal-lang/crystal-sqlite3
+    version: 0.10.0
 

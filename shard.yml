@@ -8,18 +8,23 @@ targets:
   verif-rdv-pref:
     main: src/verif-rdv-pref.cr
 
-crystal: 0.22.0
+crystal: 0.26.1
 
 license: MIT
 
 dependencies:
-  sqlite3:
-    github: Zhomart/crystal-sqlite3
-    branch: master
+  # TODO: Consider moving to Amber Framework
   kemal:
     github: kemalcr/kemal
-    branch: master
+
   crecto:
     github: fridgerator/crecto
+
+  micrate:
+    github: amberframework/micrate
+
+  sqlite3:
+    github: crystal-lang/crystal-sqlite3
+
   kemal-csrf:
     github: kemalcr/kemal-csrf
