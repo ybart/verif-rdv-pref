@@ -4,6 +4,7 @@ end
 
 Crecto::DbLogger.set_handler(STDOUT)
 
-Session.config do |config|
-  Session.config.secret = ENV["SECRET_KEY_BASE"]? || "not_so_secret_key_base"
+Kemal::Session.config do |config|
+  Kemal::Session.config.secret = ENV["SECRET_KEY_BASE"]? ||
+    "not_so_secret_key_base"
 end
